@@ -8,7 +8,7 @@ import {CourseService} from './course.service'
         {{ title }}
         <ul>
             <li *ngFor="#course of courses">
-            {{ course}}
+            {{ course }}
             </li>
         </ul>
         `,
